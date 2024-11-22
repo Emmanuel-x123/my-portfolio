@@ -256,6 +256,10 @@ display: block;
     font-size: 20px;
     font-weight: 500;
 }
+.layer button a{
+    text-decoration: none;
+    color: #ff004f;
+}
 
 .layer button{
     margin: 30px 10px;
@@ -268,7 +272,8 @@ display: block;
     transition: all 0.3s;
 }
 
-.layer button:hover{
+.layer .btnss:hover,
+.btna:hover{
     background: #ff004f;
     color: #fff;
     cursor: pointer;
