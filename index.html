@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37fb0164a8.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+<div class="header" id="header">
+    <div class="container">
+        <nav>
+          <span class="logo"><em>E</em>RO.</span>  
+          <ul id="side-menu">
+            <li><a href="#header">home</a></li>
+            <li><a href="#about-section">about</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">contacts</a></li>
+            <i class="fas fa-times"onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars"onclick="openMenu()"></i>
+        </nav>
+
+        <div class="header-text">
+            <p>front-end dev.</p>
+            <h1>hi i'm emmanuel reuben o.</h1>
+        </div>
+    </div>
+</div>
+
+<div class="about-section" id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="img/col-1.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title">about me</h1>
+                <p>As a dedicated and results-driven professional, I've had the privilege of being part of the OTS Tech Community for over a year.
+            This journey has been transformative, offering invaluable opportunities to tackle real-world challenges and develop innovative solutions</p>
+
+            <div class="tab-titles">
+                <p class="tab-links active" data-tab="sills" onclick="openTab(event,'skills')">skills</p>
+                <p class="tab-links"data-tab="experience"onclick="openTab(event,'experience')">experience</p>
+                <p class="tab-links"data-tab="education"onclick="openTab(event,'education')">education</p>
+            </div>
+
+            <div class="tab-contents active-tab" data-tab-content="skills" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>design implementations</li>
+                    <li><span>web dev</span><br>web app development</li>
+                    <li><span>performance opt</span><br>optimizing web application</li>
+                </ul>
+            </div>
+            <div class="tab-contents"data-tab-content="experience" id="experience">
+                <ul>
+                    <li><span>2024-current</span><br>OTS training academy</li>
+                    <li><span>2024</span><br>first medic solo project</li>
+                    <li><span>2024</span><br>designed swift moove website</li>
+                </ul>
+            </div>
+            <div class="tab-contents"data-tab-content="education" id="education">
+                <ul>
+                    <li><span>2021</span><br>HND, business admin and mgt</li>
+                    <li><span>2024</span><br>front-end dev. OTs tech training</li>
+                </ul>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- services -->
+ <div class="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">my services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>web design</h2>
+                <p>dynamic and responsive web designs, for a better user experience.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h2>maintenance and support</h2>
+                <p>identifying and resolving issues, fixing bugs, security updates and performance monitoring</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cash-register"></i>
+                <h2>E-commerce solutions</h2>
+                <p>integrating payment gateways and shoppingcart systems</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-- portfolio section -->
+<div class="portfolio" id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">my project</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="img/project1.jpg" alt="">
+                <div class="layer">
+                    <h3>fast-medic</h3>
+                    <p>the website connects users medical professionals, that will give individuals
+                        better experience and knowledge on health.
+                    </p>
+                 <div class="btn-container">
+                        <button class="btn btn-colour-2 project-btn" onclick="location.href='hhttps:/github.com/Emmanuel-x123'">
+                            github
+                        </button>
+                        <button class="btn btn-colour-2 project-btn" onclick="location.href='https:/emmanuel-x123.github.io/solo-project.gitub.io/'">
+                            live demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <img src="img/project2.jpg" alt="">
+                <div class="layer">
+                <h3>swift moove</h3>
+                <p>a platform that connects users with financial tools and portfolio mgt and also
+                 also stands as a road map to help simple individual profitable financial investment.
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-colour-2 project-btn" onclick="location.href='hhttps:/github.com/Emmanuel-x123'">
+                        github
+                    </button>
+                    <button class="btn btn-colour-2 project-btn" onclick="location.href='https:/emmanuel-x123.github.io/Swift-moove/'">
+                        live demo
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- contact -->
+ <div class="contact" id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">contact me</h1>
+            <p><i class="fa-regular fa-paper-plane"></i><a href="mailto:esongz456@gmail.com">esongz456@gmail.com</a></p>
+            <p><i class="fa-solid fa-square-phone"></i>+2349035799404</p>
+            <div class="social-icons">
+        <a href="https://www.linkedin.com/in/emmanuel-reuben-a9a6b3239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href='https://www.github.com/Emmanuel-x123'>
+            <i class="fa-brands fa-github"></i>
+        </a>
+            </div>
+            <a href="img/EMMANUEL REUBEN CV.pdf" download class="btn-cv">download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                <button type="submit" class="bbtn">submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+</div>
+ </div>
+<!-- footer -->
+ <footer>
+    <nav>
+        <ul>
+          <li><a href="#header">home</a></li>
+          <li><a href="#about-section">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#contact">contacts</a></li>
+        </ul>
+      </nav>
+ </footer>
+
+ <!-- copyright -->
+  <div class="copyright">
+    <p>copyright @ emmanuel reuben o. 2024</p>
+  </div>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzYzHVmEMgnWL9bJvvg5VzgVwHo9jN1ecHj92Y-amVdxWC3BVQ3l-BcpDnOJnWvsccH/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
